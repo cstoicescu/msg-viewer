@@ -36,7 +36,7 @@ if echo "%PATH%" | grep -q "$MSG_OPENER_PATH"; then
     echo "The msgviewer path is already added to the PATH for CMD."
 else
     # Add the msgviewer path to the PATH for CMD
-    setx PATH "%PATH%;$MSG_OPENER_PATH" > nul
+    setx PATH "%PATH%;$MSG_OPENER_PATH"
     echo "Updated PATH environment variable for CMD."
 fi
 

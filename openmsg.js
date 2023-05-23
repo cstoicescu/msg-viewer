@@ -40,7 +40,15 @@ const attachmentLinks = attachments.map((attachment, index) => {
 });
 const attachmentList = attachmentLinks.join('');
 
-const htmlContent = fs.readFileSync('page.html', 'utf-8');
+// Get the absolute path to the directory containing the bundled app
+const appDirectory = path.dirname(process.argv[0]);
+
+// Specify the relative path to the page.html file from the app directory
+const pageHtmlPath = path.join(__dirname, 'page.html');
+
+// Read the content of the page.html file
+const htmlContent = fs.readFileSync(pageHtmlPath, 'utf-8');
+
 const processedHtmlContent = htmlContent.replace('${subject}', subject)
     .replace('${from}', from)
     .replace('${to}', to)
