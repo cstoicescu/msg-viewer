@@ -18,9 +18,35 @@ Example: ./msg-opener-win.exe  ./email-name.msg
 
 ### Optional 
 Add any of the builded variants on your %PATH% env as alias
-example 
+Use add_to_env.sh 
 
-msgview  ./email-name.msg
+Steps: 
+1. Open a terminal and navigate to the directory where you saved the script.
+2. Run the following command to execute the script:
+
+    ```bash
+    bash add_to_env.sh
+    ```
+
+   This will update your `.bash_profile` file with the necessary entries and reload it.
+
+3. Verify that the update was successful by running the following commands in your terminal:
+
+    ```bash
+    echo $PATH
+    ```
+
+   You should see the `MsgOpener` directory included in the output, indicating that it has been added to your PATH.
+
+4. You can now use the `msgview` command followed by a file name to open `.msg` files using the `msg-opener` tool. For example:
+
+    ```bash
+    msgview my_file.msg
+    ```
+
+   This will open the specified `.msg` file using the `msg-opener` tool.
+
+
 
 ## Usage sources
 
