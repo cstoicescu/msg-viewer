@@ -10,11 +10,11 @@ MSG Viewer is a command-line tool that allows you to open and extract the conten
 
 ## Usage bundled app 
 Based on your OS use one of the following executables:
-msg-opener-linux
-msg-opener-macos
-msg-opener-win.exe
+msgviewer-linux
+msgviewer-macos
+msgviewer-win.exe
 
-Example: ./msg-opener-win.exe  ./email-name.msg
+Example: ./msgviewer-win.exe  ./email-name.msg
 
 ### Optional 
 Add any of the builded variants on your %PATH% env as alias
@@ -38,13 +38,17 @@ Steps:
 
    You should see the `MsgOpener` directory included in the output, indicating that it has been added to your PATH.
 
-4. You can now use the `msgview` command followed by a file name to open `.msg` files using the `msg-opener` tool. For example:
+4. You can now use the `msgview` command followed by a file name to open `.msg` files using the `msgviewer` tool. For example:
 
     ```bash
     msgview my_file.msg
     ```
 
-   This will open the specified `.msg` file using the `msg-opener` tool.
+    ``` cmd
+    msgviewer-win.exe my_file.msg
+    ```
+    
+   This will open the specified `.msg` file using the `msgviewer` tool.
 
 
 

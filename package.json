@@ -5,8 +5,9 @@
   "author": "Catalin Stoicescu",
   "license": "MIT",
   "scripts": {
-    "build": "pkg ."
+    "build": "pkg . --output msgviewer-linux && pkg . -t node14-win-x64 -o msgviewer-win.exe && pkg . -t node14-macos-x64 -o msgviewer-macos"
   },
+
   "bin": {
     "msg-opener": "./openmsg.js"
   },
