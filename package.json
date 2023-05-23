@@ -1,0 +1,23 @@
+{
+  "name": "msg-opener",
+  "version": "1.0.0",
+  "description": "Open .msg files on macOS",
+  "author": "Catalin Stoicescu",
+  "license": "MIT",
+  "scripts": {
+    "build": "pkg ."
+  },
+  "bin": {
+    "msg-opener": "./openmsg.js"
+  },
+  "pkg": {
+    "scripts": "openmsg.js",
+    "assets": [
+      "page.html",
+      "style.css"
+    ]
+  },
+  "dependencies": {
+    "@kenjiuno/msgreader": "1.19.0-alpha.1"
+  }
+}

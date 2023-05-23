@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Email Viewer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div style="background-color: #f2f2f2; padding: 20px;">
+    <div style="background-color: #fff; border: 1px solid #ccc; padding: 20px;">
+        <h1>${subject}</h1>
+        <p><strong>From:</strong> ${from}</p>
+        <p><strong>To:</strong> ${to}</p>
+        <p><strong>CC:</strong> ${cc}</p>
+        <div style="white-space: pre-wrap;">${bodyWithLineBreaks}</div>
+
+        <h2>Attachments:</h2>
+        <ul>
+            ${attachmentList}
+        </ul>
+    </div>
+</div>
+</body>
+</html>
