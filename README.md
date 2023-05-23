@@ -8,6 +8,18 @@ MSG Viewer is a command-line tool that allows you to open and extract the conten
 - Downloads attachments from the email and saves them locally.
 - Generates an HTML file that displays the email content and attachments in a readable format.
 
+## Easy install Steps:
+1. run add_to_env.sh 
+2. Run:
+   
+    ```bash
+    msgview my_file.msg
+    ```
+      OR 
+    ``` cmd
+    msgviewer-win.exe my_file.msg
+    ```
+
 ## Usage bundled app 
 Based on your OS use one of the following executables:
 msgviewer-linux
@@ -43,7 +55,7 @@ Steps:
     ```bash
     msgview my_file.msg
     ```
-
+      OR 
     ``` cmd
     msgviewer-win.exe my_file.msg
     ```
