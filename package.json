@@ -14,8 +14,7 @@
   "pkg": {
     "scripts": "openmsg.js",
     "assets": [
-      "page.html",
-      "style.css"
+      "page.html"
     ]
   },
   "dependencies": {
