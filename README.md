@@ -8,17 +8,32 @@ MSG Viewer is a command-line tool that allows you to open and extract the conten
 - Downloads attachments from the email and saves them locally.
 - Generates an HTML file that displays the email content and attachments in a readable format.
 
-## Easy install Steps:
-1. run add_to_env.sh 
-2. Run:
-   
-    ```bash
-    msgview my_file.msg
-    ```
-      OR 
-    ``` cmd
-    msgviewer-win.exe my_file.msg
-    ```
+## Usage: use source code(1), or bundled app (2) 
+
+## Use source code (1)
+
+
+1. In order to use sources files, you make sure you have Node.js installed on your machine. You can download it from the official Node.js website: [https://nodejs.org](https://nodejs.org)
+
+2. Clone this repository or download the source code as a ZIP file.
+
+3. Open a command prompt or terminal and navigate to the project directory.
+
+4. Run the following command to install the required dependencies: **npm install** 
+
+5. To use MSG Opener, run the following command in the terminal:
+
+
+
+## Windows
+node .\openmsg.js .\<email-name>.msg
+
+## MacOs
+node ./openmsg.js <email-name>.msg
+
+
+
+The tool will extract the email contents, save any attachments to a folder named "out", and generate an HTML file displaying the email details.
 
 ## Usage bundled app 
 Based on your OS use one of the following executables:
@@ -28,7 +43,8 @@ msgviewer-win.exe
 
 Example: ./msgviewer-win.exe  ./email-name.msg
 
-### Optional 
+### Optional (can be skipped)
+
 Add any of the builded variants on your %PATH% env as alias
 Use add_to_env.sh 
 
@@ -38,6 +54,10 @@ Steps:
 
     ```bash
     bash add_to_env.sh
+    ```
+        OR 
+    ``` cmd
+    msgviewer-win.exe my_file.msg
     ```
 
    This will update your `.bash_profile` file with the necessary entries and reload it.
@@ -62,30 +82,6 @@ Steps:
     
    This will open the specified `.msg` file using the `msgviewer` tool.
 
-
-
-## Usage sources
-
-
-1. In order to use sources files, you make sure you have Node.js installed on your machine. You can download it from the official Node.js website: [https://nodejs.org](https://nodejs.org)
-
-2. Clone this repository or download the source code as a ZIP file.
-
-3. Open a command prompt or terminal and navigate to the project directory.
-
-4. Run the following command to install the required dependencies: npm install
-
-5. To use MSG Opener, run the following command in the terminal:
-
-## Windows
-node .\openmsg.js .\<email-name>.msg
-
-## MacOs
-./openmsg.js <email-name>.msg
-
-
-
-The tool will extract the email contents, save any attachments to a folder named "out", and generate an HTML file displaying the email details.
 
 ## License
 
