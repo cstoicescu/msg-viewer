@@ -19,6 +19,7 @@ MSG Viewer is a command-line tool that allows you to open and extract the conten
 ## Use source code (1)
 
 
+
 1. In order to use sources files, you make sure you have Node.js installed on your machine. You can download it from the official Node.js website: [https://nodejs.org](https://nodejs.org)
 
 2. Clone this repository or download the source code as a ZIP file.
@@ -47,7 +48,12 @@ msgviewer-linux
 msgviewer-macos
 msgviewer-win.exe
 
+
 Example: ./msgviewer-win.exe  ./email-name.msg
+
+## Demo 
+https://github.com/cstoicescu/msg-viewer/assets/53979557/6fa45de7-7fae-4b6b-a39a-41989a895513
+
 
 ### Optional (can be skipped)
 
