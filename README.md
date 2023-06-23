@@ -2,6 +2,7 @@
 
 MSG Viewer is a command-line tool that allows you to open and extract the contents of Outlook .msg files on macOS and Windows.
 
+
 ## Features
 
 - Extracts email metadata such as subject, sender, recipients, and body.
@@ -19,6 +20,9 @@ MSG Viewer is a command-line tool that allows you to open and extract the conten
 ## Use source code (1)
 
 ### Demo source 
+
+https://github.com/cstoicescu/msg-viewer/assets/53979557/fbe8b1cf-fd50-417b-8570-9f3b13a51822
+
 
 1. In order to use sources files, you make sure you have Node.js installed on your machine. You can download it from the official Node.js website: [https://nodejs.org](https://nodejs.org)
 
