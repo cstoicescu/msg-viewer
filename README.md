@@ -9,13 +9,13 @@ MSG Viewer is a command-line tool that allows you to open and extract the conten
 - Downloads attachments from the email and saves them locally.
 - Generates an HTML file that displays the email content and attachments in a readable format.
 
+## Usage: use source code(1), or bundled app (2) 
+
 # PICS 
 ![1](https://github.com/cstoicescu/msg-viewer/assets/53979557/e6b4e4b8-621f-46d4-988a-ee8d1348c491) 
  
 ![2](https://github.com/cstoicescu/msg-viewer/assets/53979557/1700c5cc-330b-4d09-914e-3adb0311c767) 
 
-
-## Usage: use source code(1), or bundled app (2) 
 
 ## Use source code (1)
 
