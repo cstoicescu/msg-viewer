@@ -18,7 +18,7 @@ MSG Viewer is a command-line tool that allows you to open and extract the conten
 
 ## Use source code (1)
 
-
+### Demo source 
 
 1. In order to use sources files, you make sure you have Node.js installed on your machine. You can download it from the official Node.js website: [https://nodejs.org](https://nodejs.org)
 
@@ -49,9 +49,10 @@ msgviewer-macos
 msgviewer-win.exe
 
 
+
 Example: ./msgviewer-win.exe  ./email-name.msg
 
-## Demo 
+### Demo bundled exe
 https://github.com/cstoicescu/msg-viewer/assets/53979557/6fa45de7-7fae-4b6b-a39a-41989a895513
 
 
@@ -59,6 +60,10 @@ https://github.com/cstoicescu/msg-viewer/assets/53979557/6fa45de7-7fae-4b6b-a39a
 
 Add any of the builded variants on your %PATH% env as alias
 Use add_to_env.sh 
+
+### Demo app added to path, run from terminal 
+https://github.com/cstoicescu/msg-viewer/assets/53979557/1ddde07e-0209-40c8-8d64-6ba7821fe99b
+
 
 Steps: 
 1. Open a terminal and navigate to the directory where you saved the script.
@@ -79,6 +84,8 @@ Steps:
     ```bash
     echo $PATH
     ```
+
+
 
    You should see the `MsgOpener` directory included in the output, indicating that it has been added to your PATH.
 
