@@ -37,3 +37,5 @@ if [ -f "$HOME/.zshrc" ]; then
 else
     echo "The .zshrc file does not exist. Please manually add the file path and alias to your shell configuration file."
 fi
+
+sleep 3
