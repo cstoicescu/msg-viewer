@@ -25,10 +25,10 @@ MSG Viewer is a command-line tool that allows you to open and extract the conten
 
 
 
-## Windows
+- ### Windows
 node .\openmsg.js .\<email-name>.msg
 
-## MacOs
+ - ### MacOs
 node ./openmsg.js <email-name>.msg
 
 
